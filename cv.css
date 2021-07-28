@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #e6e6e6;
+    box-sizing: border-box;
+}
+
+::selection {
+    color: white;
+    background-color: black;
+}
+
+.container {
+    background-color: rgb(104, 218, 183);
+    max-width: 80%;
+    margin: 12px auto;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 25px;
+}
+
+.logo-class {
+    width: 100px;
+    height: 100px;
+    border: 2px solid white;
+    border-radius: 50%;
+    float: left;
+}
+
+h1, h2, h3, h4, h5 {
+    color: white;
+}
+
+.headerbio {
+    float: left;
+    padding: 25px;
+}
+
+.headercontact {
+    float: right;
+    padding: 25px;
+}
+
+.headercontact a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.headercontact a:hover {
+    transition: 50ms;
+    color: white;
+    text-decoration: underline;
+}
+
+.div-clear {
+    clear: both;
+}
+
+hr {
+    background-color: rgb(16, 87, 66);
+    border: 2px solid rgb(16, 87, 66);
+    margin: 20px auto;
+}
+
+.left-div {
+    float: left;
+    max-width: 30%;
+    margin-right: 50px;
+}
+
+.right-div {
+    float: left;
+    max-width: 70%;
+}
+
+.hr hr {
+    background-color: rgb(67, 141, 119);
+    border: 1px solid rgb(67, 141, 119);
+    width: 100%;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.footerdiv p {
+    display: inline;
+    padding: 15px;
+}
+
+footer p {
+    clear: both;
+    margin-top: 15px;
+}
+
+footer::selection {
+    background-color: white;
+    color: black;
+}
